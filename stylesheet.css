@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+a {
+  text-decoration:none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 100px 0 150px 0;
+  background-image: url(https://images.pexels.com/photos/775998/pexels-photo-775998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  font-family: georgia;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+
+.btn {
+  padding: 15px 30px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+  font-size: 40px;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 500px;
+  background-color: white;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+  color: #423B39;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: static;
+  top: 44%;
+  width: 100%;
+  color: #423B39;
+  font-weight: lighter;
+}
+
+.text-contents {
+  width: 90%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #61E524;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  font-family: "Lucida Grande";
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: rgba(34, 49, 52, 0.9);
+
+}
+
+.footer-logo {
+font-weight: normal;
+color: white;
+}
+
+.footer-list  {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 0px;
+  color: #b3aeb5;
+  font-family: "Avenir Next";
+  height: 25px;
+}
